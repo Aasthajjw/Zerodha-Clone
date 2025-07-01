@@ -31,9 +31,7 @@ const Apps = () => {
 
   const Logout = () => {
     removeCookie("token");
-    useEffect(() => {
-      window.location.href = "https://zerodha-clone-frontend-2yww.onrender.com";
-    }, []);
+    window.location.href = "https://zerodha-clone-frontend-2yww.onrender.com";
   };
   
   return (
