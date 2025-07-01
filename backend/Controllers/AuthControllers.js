@@ -12,9 +12,9 @@ module.exports.Signup = async (req, res, next) => {
     const user = await User.create({ email, password, username, createdAt });
     const token = createSecretToken(user._id);
     res.cookie("token", token, {
-      httpOnly: true,         // ✅ more secure + required for cross-origin cookies
-      sameSite: "lax",        // ✅ allows frontend/backend on different ports
-      secure: false,
+      httpOnly: true,       
+      sameSite: "None",      
+      secure: true,
     });
     res
       .status(201)
@@ -41,9 +41,9 @@ module.exports.Login = async (req, res, next) => {
     }
      const token = createSecretToken(user._id);
      res.cookie("token", token, {
-        httpOnly: true,         // ✅ more secure + required for cross-origin cookies
-        sameSite: "lax",        // ✅ allows frontend/backend on different ports
-        secure: false,
+        httpOnly: true,        
+        sameSite: "None",    
+        secure: true,
      });
      res.status(201).json({ message: "User logged in successfully", success: true });
      next()

@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg border-bottom sticky-top" style={{ backgroundColor: "#FFF" }}>
             <div className="container">
                 <Link className="navbar-brand" to="/">
-                    <img src="media/images/logo.svg" style={{ width: "10rem" }} alt="Logo"/>
+                    <img src="/Media/images/logo.svg" style={{ width: "10rem" }} alt="Logo"/>
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{flexGrow: '0'}}>

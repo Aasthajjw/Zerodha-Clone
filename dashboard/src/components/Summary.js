@@ -8,7 +8,7 @@ const Summary = () => {
     const fetchUser = async () => {
       try {
         const { data } = await axios.post(
-          "http://localhost:3000",
+          "https://zerodha-clone-backend-805t.onrender.com",
           {},
           { withCredentials: true }
         );
