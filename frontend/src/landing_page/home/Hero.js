@@ -5,7 +5,7 @@ function Hero() {
     return ( 
         <div className="container p-md-5" style={{textAlign: 'center'}}>
             <div className="row text-center">
-                <img src="media/images/homeHero.png" alt="Hero Image" className="mb-2" />
+                <img src="/Media/images/homeHero.png" alt="Hero Image" className="mb-2" />
                 <h1 className="mt-5">Invest in everything</h1>
                 <p> Online platform to invest in stocks, derivatives, mutual funds, and more</p> 
             </div>
