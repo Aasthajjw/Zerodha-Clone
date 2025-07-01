@@ -16,7 +16,7 @@ function Stats() {
                     <p className="text-muted">With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
                 </div>
                 <div className="col-lg-6 mt-4">
-                    <img src="media/images/ecosystem.png" style={{ width: "90%" }} />
+                    <img src="/Media/images/ecosystem.png" style={{ width: "90%" }} />
                     <div className="text-center mt-3">
                         <a href="" style={{ textDecoration: "none", marginRight: '3vw'}}>
                             Explore our products{" "}
