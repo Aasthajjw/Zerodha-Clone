@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './index.css'
-import {Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage.js";
 import Login from "./components/Login.js";
 import Signup from "./components/Signup.js";
