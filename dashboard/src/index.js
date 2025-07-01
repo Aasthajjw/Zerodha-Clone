@@ -14,8 +14,8 @@ root.render(
       <CookiesProvider>
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/*" element={<HomePage />} />
+          <Route path="/" element={<Signup />} />
+          <Route path="/home" element={<HomePage />} />
         </Routes>
       </CookiesProvider>
     </BrowserRouter>
